@@ -32,12 +32,20 @@ from multiprocessing import Event
 
 # ===================================== MAIN =============================================
 if __name__ == "__main__":
+    print("sal1")
     a = CameraReceiver([],[])
+    print("sal2")
     a.start()
+    print("sal3")
     blocker =Event()
+    print("sal4")
     try:
-        blocker.wait() 
+        print("sal5")
+        blocker.wait()
+        print("sal6")
     except KeyboardInterrupt:
         print("\nCatching a KeyboardInterruption exception! Shutdown all processes.")
         a.terminate()
+        print("sal7")
     a.join()
+    print("sal8")

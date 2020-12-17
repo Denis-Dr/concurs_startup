@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/BFMC_Startup-master.iml" filepath="$PROJECT_DIR$/.idea/BFMC_Startup-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/concurs_startup.iml" filepath="$PROJECT_DIR$/.idea/concurs_startup.iml" />
     </modules>
   </component>
 </project>
